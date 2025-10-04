@@ -27,6 +27,6 @@ Hunting increase the change for encaunter rare enemies. Hunters usually wear sca
 
 ## Steal
 
-If you dont like killing or like to live like a thief. Steal can result in fight if chance roll against your favor. Than you are penalized for fight and for escape. If you fail to steal and than fail to escape, penalization for fight is applied twice.
+If you dont like killing or like to live like a thief. Steal can result in fight if chance roll against your favor. Than you are penalized for fight and for escape. If you fail to steal and than fail to escape, penalization stacks up.
 
 ![Skill steal](../assets/Skill_steal.png)
