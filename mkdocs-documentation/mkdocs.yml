@@ -25,5 +25,16 @@ nav:
   - Home: index.md
   - Wiki:
       - Basics: pages/basics.md
+      - Lore: pages/lore.md
+      - Mechanics:
+          - Fight: pages/fight.md
+          - Steal: pages/steal.md
+          - Escape: pages/escape.md
+          - Loot: pages/loot.md    
+      - Skills: pages/skills.md
+      - Special effects: pages/special_effects.md
+      - Crafting: pages/crafting.md
       - Quests: pages/quests.md
+      - Enemies: pages/enemies.md
+      - Death: pages/death.md
   - About: pages/about.md
