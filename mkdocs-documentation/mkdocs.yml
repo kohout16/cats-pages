@@ -1,0 +1,29 @@
+site_name: ARY
+site_description: Ary documentation
+site_url: https://sitename.example
+theme:
+  name: material
+  palette:
+  # Dark mode
+  - scheme: slate
+    primary: blue grey
+    accent: deep purple
+  features:
+    - navigation.instant # instant loading feature from links click, req site_url to be set
+    - navigation.instant.prefetch # prefetch if hoover over link
+    - navigation.instant.progress # show progress of loading
+    - navigation.tracking # right side real time navigation
+    - navigation.tabs # top menu
+    - navigation.tabs.sticky # top menu visible even if scrolling
+    - navigation.sections # left tabs menu
+    - toc.follow # right menu follow
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Wiki:
+      - Basics: pages/basics.md
+      - Quests: pages/quests.md
+  - About: pages/about.md
