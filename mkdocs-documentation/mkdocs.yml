@@ -25,7 +25,7 @@ nav:
   - Home: index.md
   - Wiki:
       - Essentials:
-          - Basics: pages/basics.md
+          - Controls: pages/controls.md
           - Skills: pages/skills.md
           - Crafting: pages/crafting.md
           - Quests: pages/quests.md
