@@ -15,7 +15,7 @@ theme:
     - navigation.tracking # right side real time navigation
     - navigation.tabs # top menu
     - navigation.tabs.sticky # top menu visible even if scrolling
-    - navigation.sections # left tabs menu
+    #- navigation.sections # left tabs menu
     - toc.follow # right menu follow
 
 plugins:
@@ -24,17 +24,20 @@ plugins:
 nav:
   - Home: index.md
   - Wiki:
-      - Basics: pages/basics.md
-      - Lore: pages/lore.md
+      - Essentials:
+          - Basics: pages/basics.md
+          - Skills: pages/skills.md
+          - Crafting: pages/crafting.md
+          - Quests: pages/quests.md
+          - Enemies: pages/enemies.md
+          - Death: pages/death.md
       - Mechanics:
           - Fight: pages/fight.md
           - Steal: pages/steal.md
           - Escape: pages/escape.md
-          - Loot: pages/loot.md    
-      - Skills: pages/skills.md
-      - Special effects: pages/special_effects.md
-      - Crafting: pages/crafting.md
-      - Quests: pages/quests.md
-      - Enemies: pages/enemies.md
-      - Death: pages/death.md
+          - Loot: pages/loot.md
+      - Other:
+          - Lore: pages/lore.md    
+          - Special effects: pages/special_effects.md
+      
   - About: pages/about.md
