@@ -31,11 +31,11 @@ nav:
           - Quests: pages/quests.md
           - Enemies: pages/enemies.md
           - Death: pages/death.md
-      - Mechanics:
-          - Fight: pages/fight.md
-          - Steal: pages/steal.md
-          - Escape: pages/escape.md
-          - Loot: pages/loot.md
+#      - Mechanics:
+#          - Fight: pages/fight.md
+#          - Steal: pages/steal.md
+#          - Escape: pages/escape.md
+#          - Loot: pages/loot.md
       - Other:
           - Lore: pages/lore.md    
           - Special effects: pages/special_effects.md

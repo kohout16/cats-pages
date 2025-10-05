@@ -4,6 +4,7 @@ There are 2 types of enemies on each map, one rare and one common. Every enemy h
 
 ![Chances1](../assets/Skill_hunt.png)
 ![Chances2](../assets/hunt2.png)
+![Chances3](../assets/hunt3.png)
 
 Every enemy once met is shown in book with info.
 
