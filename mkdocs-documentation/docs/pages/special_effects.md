@@ -10,4 +10,4 @@ Special effects could be triggered by potion, enemy or quest event. It could be 
 - *Hunt* - Higher chance to meet rare enemies
 - *Magic attack* - +1 to player skill attack, could be combined with _attack effect_ 
 - *Poison* - After ticks out, player will die. Neccesary to cure.
-- *Stun* - Lower player chances in fight / steal / escape.
+- *Stun* - Increase chances to meet enemies and lower player chances in fight / steal / escape.
