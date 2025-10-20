@@ -21,6 +21,12 @@ theme:
 plugins:
   - search
 
+extra_css:
+  - css/neoteroi-mkdocs.css
+
+markdown_extensions:
+  - neoteroi.timeline
+
 nav:
   - Home: index.md
   - Wiki:
@@ -33,5 +39,5 @@ nav:
           - Enemies: pages/enemies.md
           - Death: pages/death.md 
           - Special effects: pages/special_effects.md
-      
+  - Roadmap: pages/roadmap.md
   - About: pages/about.md
