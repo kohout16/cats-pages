@@ -29,3 +29,23 @@
   font-size: 0.9rem;
   color: #666;
 }
+
+.timeline-item.done {
+  opacity: 0.6;
+  position: relative;
+}
+
+.timeline-item.done::after {
+  content: "✔";
+  color: #4caf50;           /* Material green */
+  position: absolute;
+  left: -2.0em;
+  top: 0.0rem;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+.timeline-item.done p,
+.timeline-item.done h3 {
+  text-decoration: line-through;
+}
