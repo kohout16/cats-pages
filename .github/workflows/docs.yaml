@@ -21,9 +21,10 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install MkDocs and theme
+      - name: Install MkDocs and plugins
         run: |
-          pip install mkdocs-material
+          pip install --upgrade pip
+          pip install mkdocs-material neoteroi-mkdocs
 
       - name: Build and deploy
         run: |
