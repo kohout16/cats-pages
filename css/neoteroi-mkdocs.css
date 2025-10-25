@@ -1,0 +1,51 @@
+.timeline {
+  border-left: 2px solid #bbb;
+  margin: 2rem 0;
+  padding-left: 1rem;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #3498db;
+}
+
+.timeline-item h3 {
+  margin: 0 0 0.2rem 0;
+}
+
+.timeline-item .sub-title {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.timeline-item.done {
+  opacity: 0.6;
+  position: relative;
+}
+
+.timeline-item.done::after {
+  content: "✔";
+  color: #4caf50;           /* Material green */
+  position: absolute;
+  left: -2.0em;
+  top: 0.0rem;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+.timeline-item.done p,
+.timeline-item.done h3 {
+  text-decoration: line-through;
+}
